@@ -79,7 +79,7 @@ struct ContentView: View {
                     
                 }
                 
-                Section("Output unit") {
+                Section("Choose output unit") {
                     Picker("To", selection: $outputUnit) {
                         ForEach(unit, id: \.self) { unit in
                             Text(unit)
@@ -122,8 +122,7 @@ struct ContentView: View {
 
     
     
-    //Testing Github Commit
-     //test commit 2
+    
 
     
     
